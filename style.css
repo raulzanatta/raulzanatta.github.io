@@ -253,3 +253,67 @@ footer {
     border-radius: 50%;
     box-sizing: border-box;
 }
+
+
+
+
+/* Academic Journey */
+
+.journey-intro {
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    align-items: start;
+}
+
+.photo-item {
+    margin: 0;
+}
+
+.photo-item img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.photo-item figcaption {
+    margin-top: 12px;
+}
+
+.photo-item figcaption strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.photo-item figcaption span {
+    display: block;
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+
+    .photo-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .photo-item img {
+        aspect-ratio: 4 / 3;
+    }
+
+}
+
