@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
     <title>Raul Zanatta</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,9 +14,19 @@
 
 <div class="container">
 
-    <header>
+    <!-- Navigation menu -->
+    <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="#research">Research</a>
+        <a href="#talks">Talks</a>
+    </nav>
 
-        <img src="images/profile.jpg" class="profile">
+    <!-- Personal information -->
+    <header class="profile-header">
+
+        <img src="images/profile.jpg"
+             alt="Raul Zanatta"
+             class="profile">
 
         <h1>Raul Zanatta</h1>
 
@@ -24,61 +36,73 @@
         </p>
 
         <div class="links">
-            <a href="https://scholar.google.com/citations?user=DdWp6IEAAAAJ&hl=en&oi=ao">Google Scholar</a>
-            <!-- <a href="#">ORCID</a> -->
-            <a href="https://www.linkedin.com/in/raul-zanatta-499978193/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Big6Y%2FfH2SwWFL6GYR92iGA%3D%3D">Linkedin</a>
-            <!-- <a href="#">CV</a> -->
+            <a href="https://scholar.google.com/citations?user=DdWp6IEAAAAJ">
+                Google Scholar
+            </a>
+            <a href="https://www.linkedin.com/in/raul-zanatta-499978193/">
+                LinkedIn
+            </a>
         </div>
 
     </header>
 
-
-    <section>
-
-        <h2>About</h2>
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
 
         <p>
-            I am a PhD student in Statistical Sciences at the University of Padova.
+            I am a PhD student in Statistical Sciences
+            at the University of Padova.
         </p>
-
     </section>
 
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
 
-    <section>
+        <div class="education-item">
+            <h3>PhD in Statistical Sciences</h3>
+            <p>University of Padova</p>
+        </div>
+    </section>
 
+    <!-- Research preview -->
+    <section id="research">
         <h2>Research</h2>
 
         <p>
-            My research focuses on ...
+            Research interests and projects
+            will be added here.
         </p>
-
     </section>
 
-
-    <section>
-
-        <h2>Publications</h2>
+    <!-- Talks preview -->
+    <section id="talks">
+        <h2>Talks</h2>
 
         <p>
-            Publications will be listed here.
+            Conferences and seminars
+            will be listed here.
         </p>
-
     </section>
 
-
-    <section>
-
+    <!-- Contact -->
+    <section id="contact">
         <h2>Contact</h2>
 
         <p>
-            Email: raul.zanatta@phd.unipd.it
+            Email:
+            <a href="mailto:raul.zanatta@phd.unipd.it">
+                raul.zanatta@phd.unipd.it
+            </a>
         </p>
-
     </section>
 
+    <footer>
+        <p>© 2026 Raul Zanatta</p>
+    </footer>
 
 </div>
 
 </body>
 </html>
-
