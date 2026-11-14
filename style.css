@@ -156,3 +156,45 @@ footer {
         font-size: 22px;
     }
 }
+
+
+/* Compact education */
+
+.education-item {
+    margin-bottom: 16px;
+}
+
+.education-item p {
+    margin: 0;
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.education-item strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.education-item .grade {
+    margin-top: 2px;
+    color: #777;
+    font-size: 13px;
+}
+
+/* Email below profile links */
+
+.email {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.email a {
+    color: #666;
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
